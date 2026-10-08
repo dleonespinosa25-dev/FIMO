@@ -1,0 +1,12 @@
+{
+  "name": "SmartClub + SmartWallet (demo)",
+  "short_name": "SmartWallet",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFF6EE",
+  "theme_color": "#F15A24",
+  "description": "Prototipo no oficial. Fondos ficticios. La membresía SmartClub es opcional.",
+  "icons": [
+    { "src": "/smartclub-hero.png", "sizes": "any", "type": "image/png", "purpose": "any" }
+  ]
+}

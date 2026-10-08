@@ -1,0 +1,14 @@
+{
+  "name": "smartwallet-demo",
+  "private": true,
+  "description": "SMARTWALLET — Prototipo no oficial para hackatón Farmaenlace x BYD",
+  "workspaces": ["server", "client"],
+  "scripts": {
+    "dev": "concurrently -n backend,app -c cyan,magenta \"npm run dev -w server\" \"npm run dev -w client\"",
+    "start": "npm run dev",
+    "test": "npm run test -w server"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
